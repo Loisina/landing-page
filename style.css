@@ -1,0 +1,192 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.icon {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    
+    
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 70px;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(255, 255, 0, 0.5);
+    
+    
+}
+.header-bg {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.3)),  url("./assets/backgroud-girl.jpg"); 
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #FDD400;
+    font-size: 15px;
+    font-weight: 300px;
+    
+}
+
+.center-text h1 {
+ font-size: 80px ; 
+ color: #FDD400;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.sec-one {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.div-one{
+    text-align: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.div-one h1{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d2c2c;
+}
+.div-one p {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #929191;
+}
+
+.div-two {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.card-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.3)),  url("./assets/card1-pic.jpg"); 
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 800px;
+    margin-right: 30px;
+}
+
+.card-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.3)),  url("./assets/card5-pic.jpg"); 
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 800px;
+}
+
+.card-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.3)),  url("./assets/card6-pic.jpg"); 
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 800px;
+    margin-left: 30px;
+}
+
+.card-con {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.sec-two {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.3)),  url("./assets/sectwo.png");
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectwo-con {
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.sectwo-con h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.sectwo-con p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: #0c0101;
+    font-style: italic;
+}
