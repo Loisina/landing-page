@@ -47,7 +47,10 @@
 }
 
 button {
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 20px;
     border: none;
     margin-top: 20px;
@@ -114,6 +117,7 @@ button {
     height: 350px;
     width: 800px;
     margin-right: 30px;
+    border-radius: 30px;
 }
 
 .card-two {
@@ -127,6 +131,7 @@ button {
     background-size: cover;
     height: 350px;
     width: 800px;
+    border-radius: 30px;
 }
 
 .card-three{
@@ -141,6 +146,7 @@ button {
     height: 350px;
     width: 800px;
     margin-left: 30px;
+    border-radius: 30px;
 }
 
 .card-con {
@@ -177,6 +183,7 @@ button {
     padding-top: 30px;
     padding-right: 20px;
     padding-bottom: 20px;
+    border-radius: 30px;
 }
 
 .sectwo-con h1 {
@@ -189,4 +196,10 @@ button {
     font-family: Arial, Helvetica, sans-serif;  
     color: #0c0101;
     font-style: italic;
+}
+
+.midcon h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #FDD400;
 }
