@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Graced Skin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header class="header-bg">
@@ -13,11 +14,11 @@
       GracedSkin
     </a>
     <ul class="nav-items">
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Products</li>
-      <li>Blogs</li>
-      <li>Contact</li>
+     <li> <a href="">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="">Products</a></li>
+      <li><a href="">Blogs</a></li>
+      <li><a href="">Contact</a> </li>
     </ul>
   </nav>
 <div class="center-text">
@@ -25,12 +26,36 @@
     Redefine Beauty
   </h1>
   <button >
-    Explore More
+    Explore More <i class="fa fa-search" aria-hidden="true"></i>
   </button>
+  
 </div>
 </header>
 
-<section class="sec-one">
+<form class="forms" action="">
+  <div class="input-field">
+    <label for="product/item">Product/item</label>
+    <input type="text" name="product/item" id="" placeholder="Cerave Face Wash">
+  </div>
+  <div class="input-field">
+    <label for="Receipt date">Receipt date</label>
+    <input type="date" name="Receipt date" id="">
+  </div>
+  <div class="input-field">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="" placeholder="abcd@gmail.com">
+  </div>
+  <div class="input-field">
+    <label for="promo-choice">Promo Choice</label>
+    <select name="promo-choice" id="">Promo Choice
+      <option value="10% for 2">10% for 2</option>
+      <option value="Buy 3 get one free">Buy 3 get one free</option>
+      <option value="50% after first purchase">50% after first purchase</option>
+    </select>
+  </div>
+</form>
+
+<section class="sec-one" id="about">
 
 <div class="div-one" >
   <h1>
@@ -43,7 +68,7 @@
 <div class="div-two">
   <div class="card-one">
     <div class="card-con">
-    <p>Find all cleansers here</p>
+    <p class="top-message">Find all cleansers here</p>
     <div class="midcon">
       <h1>Serums</h1>
       <p>From GHC 150</p>
@@ -53,7 +78,7 @@
   </div>
   <div class="card-two">
     <div class="card-con">
-    <p>Find all serums here</p>
+    <p class="top-message">Find all serums here</p>
     <div class="midcon">
       <h1>Cleansers</h1>
       <p>From GHC 200</p>
@@ -63,7 +88,7 @@
   </div>
   <div class="card-three">
     <div class="card-con">
-    <p>Find all toners here</p>
+    <p class="top-message">Find all toners here</p>
     <div class="midcon">
       <h1>Toners</h1>
       <p>From GHC 100</p>
@@ -83,7 +108,13 @@
     <button>Try Now!</button>
   </div>
 </section>
- 
+
+<footer class="footer">
+  <h3>
+    Designed By Lois Asiedu with Generation Ghana
+  </h3>
+</footer>
+  
     
 </body>
 </html>
